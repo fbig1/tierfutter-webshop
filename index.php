@@ -31,6 +31,7 @@
                     <option value="">-- Bitte wählen --</option>
                     <option value="1">🐕 Hunde</option>
                     <option value="2">🐱 Katzen</option>
+                    <option value="3">🦜 Vögel</option>
                 </select>
                 
                 <label>Sortierung:</label>
@@ -38,6 +39,9 @@
                     <option value="preis ASC">Preis: niedrig → hoch</option>
                     <option value="preis DESC">Preis: hoch → niedrig</option>
                     <option value="bez ASC">Name: A → Z</option>
+                    <option value="bez DESC">Name: Z → A</option>
+                    <option value="id ASC">Artikelnummer niedrig → hoch</option>
+                    <option value="id DESC">Artikelnummer hoch → niedrig</option>
                 </select>
                 
                 <button type="submit" name="suchen">🔍 Suchen</button>
@@ -99,3 +103,4 @@
     </div>
 </body>
 </html>
+
