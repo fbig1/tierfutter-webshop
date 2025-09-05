@@ -76,6 +76,7 @@
                     <option value="">-- Bitte wählen --</option>
                     <option value="1">🐕 Hunde</option>
                     <option value="2">🐱 Katzen</option>
+                    <option value="3">🦜 Vögel</option>
                 </select>
             </div>
             
@@ -95,8 +96,9 @@
             </div>
             
             <button type="submit" name="speichern" class="btn-success">💾 Produkt hinzufügen</button>
-            <a href="index.php"><button type="button" class="btn-secondary">🔙 Zurück zur Suche</button></a>
+            <a href="index.php"><button type="button" class="btn-secondary">↩️ Zurück zur Suche</button></a>
         </form>
     </div>
 </body>
 </html>
+
